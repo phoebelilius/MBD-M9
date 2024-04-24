@@ -1,0 +1,59 @@
+body {
+    background: linear-gradient(to bottom right, #b19cd9, #a7e9af);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.lists {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 45%;
+}
+
+.list h2 {
+    margin-top: 0;
+}
+
+.task {
+    margin-bottom: 5px;
+}
+
+.task input {
+    margin-right: 5px;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+.fas {
+    color:#b19cd9
+}
+
+.btn-add-task {
+    color: white;
+    background-color:#b19cd9
+}
+
+.card-todo {
+    margin-bottom: 20px;
+}

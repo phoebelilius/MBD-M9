@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+}
+
+.scatter-plot {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:azure;
+    padding: 5%;
+}
+
+.scatter-plot circle {
+    fill: steelblue;
+    opacity: 0.7;
+}
+
+.scatter-plot circle:hover {
+    fill: orange;
+}
+
+.scatter-plot text {
+    font-size: 12px;
+    fill: black;
+}

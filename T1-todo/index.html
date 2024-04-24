@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My To-Do List</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">To-Do List</h1>
+        <div class="input-group mb-3">
+            <input type="text" id="taskInput" class="form-control" placeholder="Add new task..." required>
+            <div class="input-group-append">
+                <button class="btn btn-add-task" type="button" onclick="addTask()">Add Task</button>
+            </div>
+            <div class="invalid-feedback">
+                Please enter a task!
+            </div>
+        </div>        
+        
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-todo">
+                    <div class="card-body">
+                        <h5 class="card-title">To Do</h5>
+                        <div id="todoList"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card card-completed">
+                    <div class="card-body">
+                        <h5 class="card-title">Completed</h5>
+                        <div id="completedList"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
